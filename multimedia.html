@@ -7,12 +7,31 @@
         <meta name="description" content="This web page has various multimedia ranging from videos, audios and youtube embedded media">
         <meta name="keywords" content="video, audio, youtube, mp4, mp3, ogg">
         <meta http-equiv="refresh" content="50">
+
+        <style>
+            .OnbackgroundWeb {
+                background-color: grey;
+            }
+        
+            .OntextHeader {
+                color: orange;
+                text-size-adjust: 30px;
+            }
+        
+            .OntextDetails {
+                color: yellowgreen;
+            }
+        
+            .OnOrderedList {
+                color: yellow;
+            }
+        </style>
     </head>
 
-    <body>
-        <h4>Suit yourself with entertainment</h4>
-        <p>Press the play button to enjoy your favourite Music or Video</p>
-        <p>Below is an audio</p>
+    <body class="OnbackgroundWeb">
+        <h4 class="OntextHeader">Suit yourself with entertainment</h4>
+        <p class="OntextDetails">Press the play button to enjoy your favourite Music or Video</p>
+        <p class="OntextDetails"> Below is an audio</p>
         <div>
             <audio controls="on" autoplay>
                 <source src="audios\one.mp3" type="audio/mpeg">
@@ -20,7 +39,7 @@
                 Your browser does not support the audio tag
             </audio>
         </div>
-        <P>Below is a Video</P>
+        <P class="OntextDetails">Below is a Video</P>
         <div>
             <!-- <p >Video</p> -->
             <video  width="340" height="420" controls="on" autoplay>
@@ -28,7 +47,7 @@
             </video>
         </div>
         <div>
-            <p>Below is an embedded video from youtube using iFrame</p>
+            <p class="OntextDetails">Below is an embedded video from youtube using iFrame</p>
         </div>
 
         <div>
